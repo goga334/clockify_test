@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 """
 Clockify test application
 """
 
 import configparser
 import pandas as pd
-=======
->>>>>>> ccabbf668642475b5c41c9bc1a2c2cd376bc573f
 import requests
 import options
 
@@ -24,7 +21,6 @@ except requests.exceptions.RequestException as error:
 else:
     json_response_base = response.json()
     print("Records received successfully!")
-<<<<<<< HEAD
     workspaceId = json_response_base['activeWorkspace']
     userId = json_response_base['id']
 
@@ -44,5 +40,3 @@ else:
     df.groupby(by=['add_date'])
     for i in df.children:
         print(f'{i["name"]} : {i["duration"]}s\n')
-=======
->>>>>>> ccabbf668642475b5c41c9bc1a2c2cd376bc573f
