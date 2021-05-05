@@ -1,5 +1,5 @@
 # clockify_test
-###Test task application 
+Test task application 
 
 This application connects to Clockify API using personal token and 
 receives records of the user.
@@ -12,5 +12,5 @@ spent on each task grouped by date.
 
 If something went wrong the application tells about the error. 
 
-The application takes no options, simply insert your API key
-into config.ini without quotes and run main.py.
+The application takes no options, simply insert your generated 
+API key into config.ini without any quotes or brackets and run main.py.
